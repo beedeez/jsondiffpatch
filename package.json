@@ -1,11 +1,7 @@
 {
-  "name": "jsondiffpatch",
+  "name": "@beedeez/jsondiffpatch",
   "version": "0.4.1",
-  "author": "Benjamin Eidelman <beneidel@gmail.com>",
   "description": "Diff & Patch for Javascript objects",
-  "contributors": [
-    "Benjamin Eidelman <beneidel@gmail.com>"
-  ],
   "browser": "dist/jsondiffpatch.umd.js",
   "main": "dist/jsondiffpatch.cjs.js",
   "module": "dist/jsondiffpatch.esm.js",
@@ -25,13 +21,12 @@
     "bump": "gulp bump",
     "test": "nyc mocha",
     "watch": "nodemon --exec \"mocha\"",
-    "prepublish": "npm run build && npm run build-dist",
     "cover-report": "open coverage/lcov-report/index.html",
     "cover-publish": "nyc mocha && codeclimate < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/benjamine/jsondiffpatch.git"
+    "url": "https://github.com/beedeez/jsondiffpatch.git"
   },
   "keywords": [
     "json",
